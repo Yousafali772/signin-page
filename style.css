@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #153B4D;
+}
+
+#sign{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-content: center;
+    margin-top: 115px;
+    margin-bottom: 115px;
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
+    
+}
+.sign1 {
+    border: none;
+    background-color: #1F485B;
+    box-shadow: rgb(169 172 183 / 58%) -3px 1px 10px;
+    font-size: 72px;
+    /* width: 30%; */
+    width: 100%;
+    max-width: 35%;
+    height: 750px;
+    align-content: center;
+    padding: 0 0 0 20px;
+    border-radius: 50px;
+    
+}
+
+.sign1 p{
+    width: 47%;
+    font-size: 36px;
+    font-weight: 300;
+    color: #FFFFFF;
+    font-style: normal;
+    padding-left: 40px;
+}
+.sign2{
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 3px 1px 10px #ffffff;
+    font-family: "Poppins", sans-serif;
+    align-content: center;
+    /* width: 50%; */
+    width:100%;
+    max-width: 55%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -75px;
+    gap: 40px;
+}
+.language{
+    align-items: flex-end;
+    display: flex;
+    font-weight: 300;
+    align-self: end;
+    margin: 25px 40px 30px 0;
+    color: #212738; 
+}
+select{
+    border: none;
+    font-size: 12px;
+    font-weight: 300;
+}
+.sign2 h1{
+    color: #212738;
+    font-size: 26px;
+    font-weight: 800;
+    padding: 0 0 0 155px;
+
+}
+.anchor{
+    display: flex;
+    width: 100%;
+    height: 25px;
+    font-size: 12px;
+    justify-content:center;
+    margin: 0 0 0 0px;
+    text-align: center;
+    /* gap:50px; */
+}
+.anchor a{
+    text-decoration: none;
+    font-weight: 200;
+    color: #212738;
+}
+.img1{
+    border: none;
+    background-color: #FFFFFF;
+    display: flex;
+    width: 30%;
+    height: 18px;
+    gap: 5px;
+}
+.img2{
+    border: none;
+    background-color: #FFFFFF;
+    display: flex;
+    width: 30%;
+    height: 18px;
+    gap: 5px;
+}
+.sign2 p{
+    width: 100%;
+    max-width: 95%;
+    font-size: 16px;
+    font-weight: 200;
+    color: #CDCACA;
+    text-align: center;
+    margin-left: -20px;
+    /* gap: 30px; */
+    /* padding-bottom: 30px; */
+}
+
+input{
+    font-family: "Poppins", sans-serif;
+    color: #5e5757;
+    font-size: 13px;
+    font-weight: 200;
+    margin: 0 0 25px 160px;
+    border: none;
+    width: 48%;  
+    height: 35px; 
+    /* gap: 15px;  */
+    padding-left: 10px;
+    
+}
+.fa-lock:before{
+    content: "\f023";
+    color: #CDCACA;
+    margin-left: -25px;
+}
+.fa-solid{
+    font-weight: 200;
+    
+}
+button{
+    font-weight: 800;
+    width: 50%;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    justify-content: center;
+    color: #FFFFFF;
+    background-color: #1F485B;
+    margin: 0 0 0 160px;
+}
+.sign2 pre{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #CDCACA;
+    /* text-align: center; */
+    /* padding-left: 170px; */
+    width: 100%;
+    max-width: 75%;
+    text-align: center;
+    height: 40px;
+    /* margin-top: -20px; */
+    a{
+        font-family: "Poppins", sans-serif;
+        text-decoration: none;
+        font-weight: 200;
+    }
+}
+/* LAPTOP screen 1024px */
+@media(max-width:1024px){
+    .sign1{
+        width: 100%;
+        max-width: 39%;
+        border-radius: 40px;
+    }
+    .sign1 p{
+        width: 60%;
+        /* max-width: fit-content; */
+        font-size: 32px; 
+        /* text-align: center; */
+        padding:unset;
+    }
+    .sign2{
+        width: 100%;
+        max-width: 60%;
+        border-radius: 40px;
+    }
+    .language{
+        margin: 15px 20px;
+    }
+    .sign2 h1{
+        font-size: 22px;
+        padding-left: 110px;
+    }
+    .anchor{
+        font-size: 12px;
+        width: 100%;
+        /* text-align: center; */
+        /* max-width: 90%; */
+        gap: 25px;
+        /* margin-left: 5px; */
+    }
+    .sign2 p{
+        width: 100%;
+        padding-left: 20px;
+        /* max-width: 0%; */
+        /* max-width: 70%;   */
+        font-size: 16px;
+        text-align: center;
+    
+        /* padding-left: 5px; */
+    }
+
+    input, button{
+        margin-left: 120px;
+        width: 100%;
+        max-width: 60%;
+    }
+    button{
+        max-width: 62%;
+    }
+    .sign2 pre{
+        width: 100%;
+        max-width: 77%;
+        text-align: center;
+        font-size: 14px;
+        /* margin:-25px 0 0 -35px; */
+    }
+}
+/* TAB screen 768px */
+@media(max-width:768px){
+    #sign{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+     padding: unset;
+     margin-left: 115px;
+    }
+    .sign1 {
+        width:  100%;
+        max-width: 85%;
+        height: 200px;
+        box-shadow: 
+        rgb(169 172 183 / 47%) -3px 1px 18px;
+        align-content: start;
+        border-radius: 30px;
+        margin-bottom: -110px;
+        margin-left: -74px;
+
+        /* padding-left: 100px; */
+        
+    }
+    .sign1 p{
+        font-size: 28px;
+       width: 100%;
+       max-width: 95%;
+       text-align: center;
+       padding-top: 10px;
+    }
+    .sign2 {
+        width: 100%;
+        max-width: 87%;
+        height: 625px;box-shadow: 
+        1px 1px 10px #ffffff;
+        padding-left: 4px; 
+        border-radius: 30px;
+    }
+    .sign2 h1{
+        padding-left: 95px;
+        /* font-size: 24px; */
+    }
+    .anchor{
+        width: 100%;
+        text-align: center;
+        margin-left: -40x;
+        gap: 40px;
+    }
+    .sign2 p {
+        width: 92%;
+        text-align: center;
+    }
+    input, button{
+        width: 100%;
+
+        margin: 0 0 25px 90px;
+    }
+    button{
+        margin: 0 0 30px 90px;
+    }
+    .sign2 pre{
+        font-size: 13px;
+        width: 100%;
+        margin: 70%;
+        /* padding-left: ; */
+        text-align: center;
+        height: auto;
+        margin-top: -50px;
+        margin-left: -25px;
+    
+    }
+
+}
+/* MOBILE L screen 425px */
+@media (max-width:425px){
+    #sign{
+        display:flex;
+        flex-direction: column;
+        /* padding: 50px; */
+        /* align-content: space-around; */
+        /* justify-content: center; */
+        width: 100%;
+        /* max-width: 80%; */
+     }
+    .sign1 {
+        width: 100%;
+        max-width: 90%;
+        height: 150px;
+        text-align: center;
+        margin-bottom: -80px;
+        /* margin-left: -74px; */
+        border-radius: 20px;
+        /* padding-left: 100px; */
+
+    }
+    .sign1 p{
+        font-size: 22px;
+        padding-top: 10px;
+    }
+    .sign2{
+        width: 100%;
+        max-width: 93.5%;
+        height: 475px;
+        gap: 20px;
+        border-radius: 20px;
+    }
+    .language{
+        margin: 15px 15px 15px 0;
+    }
+    select{
+        font-size: 8px;
+        /* gap: 10px; */
+    }
+    .sign2 h1{
+        width: 100%;
+        max-width:63%;
+        font-size: 16px;
+        text-align: center;
+        padding: unset;
+        /* padding-left: 25px; */
+        }
+        .anchor{
+            width: 100%;
+            /* max-width:90%; */
+            font-size: 8px;
+            text-align: center;
+            /* margin: unset; */
+            /* gap: 25px; */
+            /* margin-left: -30px ; */
+        }
+        .sign2 p{
+            font-size: 12px;
+            margin-left: -10px;
+        }
+        input{
+            font-size: 10px;
+            /* padding-left: 10px; */
+            width: 100%;
+            max-width: 70%;
+            height: 25px;
+            margin-left: 50px;
+            padding-top: 5px;
+        }
+        button{
+            width: 100%;
+            max-width: 73%;
+            height: 30px;
+            font-size: 12px;
+            margin-left: 50px;
+        }
+        .sign2 pre{
+            width: 100%;
+            max-width: 67%;
+            height: auto;
+            font-size: 10px;
+            margin-left: unset;
+            margin-top: -35px;
+        }
+}
+/* MOBILE M screen 375px */
+@media (max-width:375px){
+    #sign{
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+    }
+    .sign1{
+        width: 100%;
+        max-width: 95%;
+        height: 180px;
+        border-radius: 20px;
+        margin-bottom: -110px;
+        margin-left: -75px;
+    }
+    .sign1 p{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .sign2{
+        width: 100%; 
+        max-width: 98.5%;
+        height: 450px;
+        border-radius: 20px;
+    }
+    .sign2 h1{
+        font-size: 14px;
+        width: 100%;
+        max-width: 55%;
+        text-align: center;
+        padding-left: unset;
+    }
+    .anchor{
+        display: flex;
+        width: 100%;
+        max-width: 92%;
+        margin-left: unset;
+        padding: unset;
+
+    } 
+    .img2{
+        width: 34%;
+    }
+    input{
+        font-size: 8px;
+        height: 18px;
+        padding-top: 5px;
+        padding-bottom: 2px;
+        align-items: center;
+    }
+    button{
+        font-size: 12px;
+    }
+    .sign2 pre{
+        width: 100%;
+        max-width: 72%;
+        font-size: 10px;
+        font-weight: 200;
+        /* margin-top: -35px; */
+    }
+
+}
+/* MOBILE S screen 320px */
+@media (max-width:320px){
+    #sign{
+        display: flex;
+        border-radius: -2px;
+        flex-wrap: nowrap;
+        padding-left: 35px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+     }
+    .sign1{
+        width: 100%;
+        height: 125px;
+        text-align: center;
+        border-radius: 15px;
+        margin-bottom: -65px;
+        margin-left: -75px;
+    }
+    .sign1 p{
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .sign2{
+        width: 100%;
+        height: 450px;
+        border-radius: 15px;
+        }
+    .sign2 h1{
+        width: 100%;
+        max-width: 55%;
+        font-size: 13px;
+        /* padding-left: 10px; */
+    }
+    .anchor{
+        width: 100%;
+        max-width: 97%;
+        font-size: 7px;
+    }
+    .sign2 p{
+        font-size: 10px;
+        padding-left: 10px;
+    }
+    input{
+        width: 100%;
+        max-width: 70%;
+        justify-content: center;
+        /* margin-left: -15px; */
+        /* width: 80%; */
+    }
+    button{
+        width: 100%;
+        max-width: 74%;
+        /* margin-left: -18px; */
+    }
+    .sign2 pre{
+        width: 100%;
+        max-width: 85%;
+        /* max-width: 85%; */
+        /* margin-left: -60px; */
+    }
+}
